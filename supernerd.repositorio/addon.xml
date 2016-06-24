@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="supernerd.repositorio" name="repositorio super nerd" version="0.0.1" provider-name="robsonflorentino">
 	<extension point="xbmc.addon.repository" name="repositorio akx atualizacoes">
-		<info compressed="false">http://raw.github.com/supernerd-repo/supernerd.repositorio/master/addons.xml</info>
-		<checksum>http://raw.github.com/supernerd-repo/supernerd.repositorio/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/supernerd-repo/supernerd.repositorio/master/repo/</datadir>
+		<info compressed="false">http://raw.github.com/robsonflorentino/supernerd.repositorio/master/addons.xml</info>
+		<checksum>http://raw.github.com/robsonflorentino/supernerd.repositorio/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/robsonflorentino/supernerd.repositorio/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Super Nerd Addon repositorio</summary>
