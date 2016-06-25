@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="supernerd.repositorio" name="repositorio super nerd" version="0.0.1" provider-name="robsonflorentino">
-	<extension point="xbmc.addon.repository" name="repositorio akx atualizacoes">
-		<info compressed="false">http://raw.github.com/robsonflorentino/supernerd.repositorio/master/addons.xml</info>
-		<checksum>http://raw.github.com/robsonflorentino/supernerd.repositorio/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/robsonflorentino/supernerd.repositorio/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Super Nerd Addon repositorio</summary>
-		<description>Repositorio de atualizacoes Super Nerd</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
+    <addon id="supernerd.podcasts" name="Podcasts super nerd" version="0.0.1" provider-name="robsonflorentino">
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>audio</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="pt-br">Escute os mais irreverentes podcasts da cultura pop do Brasil.</summary>
+            <description lang="pt-br">Escute os mais irreverentes podcasts da cultura pop do Brasil.</description>
+            <disclaimer lang="pt-br"></disclaimer>
+            <language></language>
+            <platform>all</platform>
+            <license></license>
+            <forum></forum>
+            <website></website>
+            <email></email>
+            <source></source>
+        </extension>
+    </addon>
+
+    <addon id="supernerd.repositorio" name="repositorio super nerd" version="0.0.1" provider-name="robsonflorentino">
+        <extension point="xbmc.addon.repository" name="repositorio akx atualizacoes">
+            <info compressed="false">http://raw.github.com/robsonflorentino/supernerd.repositorio/master/addons.xml</info>
+            <checksum>http://raw.github.com/robsonflorentino/supernerd.repositorio/master/addons.xml.md5</checksum>
+            <datadir zip="true">http://raw.github.com/robsonflorentino/supernerd.repositorio/master/repo/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Super Nerd Addon repositorio</summary>
+            <description>Repositorio de atualizacoes Super Nerd</description>
+            <disclaimer></disclaimer>
+            <platform>all</platform>
+        </extension>
+    </addon>
 </addons>

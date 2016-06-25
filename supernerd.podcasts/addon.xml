@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="supernerd.podcasts" name="Podcasts super nerd" version="0.0.1" provider-name="robsonflorentino">
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+        <summary lang="pt-br">Escute os mais irreverentes podcasts da cultura pop do Brasil.</summary>
+        <description lang="pt-br">Escute os mais irreverentes podcasts da cultura pop do Brasil.</description>
+        <disclaimer lang="pt-br"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license></license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
+    </extension>
+</addon>
